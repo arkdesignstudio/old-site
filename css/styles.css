@@ -923,8 +923,8 @@ body {
     box-sizing: border-box;
     min-height: 1rem;
     margin-bottom: 0;
-    /*border: 0px solid #676868;*/
-    border: 0px solid red;
+    border: 0px solid #676868;
+/*    border: 0px solid red;*/
     border-radius: 1px;
     overflow: hidden;
     text-align: center;
@@ -1054,6 +1054,11 @@ body {
   height: 85%;
 }
 
+.col-xs-0 {
+  -ms-flex-preferred-size: 0%;
+  flex-basis: 0% !important;
+  max-width: 0% !important;
+}
 
 .col-contact-side1 {
   flex-basis: 10% !important;
@@ -1214,6 +1219,13 @@ body {
     color: #252727 !important;
   }
 
+  @media (max-width: 500px) {
+    .email-header{
+            font-size: 12px;
+    }
+
+  }
+
   .bio-sub-header{
     font-family: "Circular";
     text-transform: uppercase;
@@ -1317,7 +1329,7 @@ a{
 }
 
 .bio-paragraph{
-    min-width: 100px;
+    min-width: 50px;
     width: 100%;
     color: #252727;
     transition: all .4s ease 0s;
@@ -1339,6 +1351,33 @@ a{
   }
 }
 
+@media(max-width:500px){
+  .bio-paragraph{
+      font-size: 9px;
+      line-height: 10px;
+  }
+}
+
+.bio-box-right{
+  margin-left: 40px;
+}
+
+.bio-box-left{
+  margin-right: 40px;
+}
+
+@media(max-width:500px){
+
+    .bio-box-right{
+      margin-left: 20px;
+    }
+
+    .bio-box-left{
+      margin-right: 20px;
+    }
+
+}
+
 #about-paragraph{
     min-width: 100px;
     width: 100%;
@@ -1346,15 +1385,16 @@ a{
     transition: all .4s ease 0s;
 }
 
-@media(max-height:500px){
+@media(max-width:500px){
   #about-paragraph, {
     font-size: 11px;
+    line-height: 13px;
   }
 }
 
 @media(max-width:1000px){
   #about-paragraph{
-    font-size: 11px !important;
+    font-size: 12px;
   }
 }
 
@@ -1389,6 +1429,14 @@ a{
   transition: all 0.2s ease 0s;
   margin-top: 5px;
 }
+
+@media(max-width:600px){
+    .button-label{
+        display: none;
+    }
+}
+
+
 
 .visit-button, .next-button, .back-button{
     transition: all 0.2s ease 0s;
@@ -1435,6 +1483,16 @@ a:hover{
     overflow: hidden;
     transition: all 0.6s ease 0s;
 }
+
+@media(max-width:500px){
+    .window{
+        -webkit-transform: translate(-100px, 0px);
+        -o-transform: translate(-100px, 0px);
+        -ms-transform: translate(-100px, 0px);
+        transform: translate(-100px, 0px);
+    }
+}
+
 
 #corner-container{
     opacity: 0;
@@ -1514,34 +1572,7 @@ a:hover{
   top: 20%;
 }
 
-@-moz-document url-prefix() { 
-  #animation-container {
-    transition: all 10s;
-      width: 280px;
-      height: 280px;
-      display: flex; 
-      align-items: center;
-      justify-content: center;
-      border-radius: 1px;
-      position: absolute;
-      top: 20%;
-      left: 0%;
-      border:none;
-  }
-  #animation-container2 {
-    transition: all 10s;
-      width: 280px;
-      height: 280px;
-      display: flex; 
-      align-items: center;
-      justify-content: center;
-      border-radius: 1px;
-      position: absolute;
-      top: 20%;
-      left: 0%;
-      border:none;
-  }
-}
+
 
 @media(max-width: 900px) {
   #animation-container{
@@ -1569,6 +1600,12 @@ a:hover{
   position:absolute;
 }
 
+#folding-animation2{
+  width:200px; 
+  top:10%;  
+  position:absolute;
+}
+
 
 
 #paragraph-border{
@@ -1590,6 +1627,45 @@ a:hover{
     opacity: 0;
 }
 
+@-moz-document url-prefix() { 
+  #animation-container {
+    transition: all 10s;
+      width: 100%;
+      height: 100%;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      border-radius: 1px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      border:none;
+  }
+  #animation-container2 {
+    transition: all 10s;
+      width: 100%;
+      height: 100%;
+      display: flex; 
+      align-items: center;
+      justify-content: center;
+      border-radius: 1px;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      border:none;
+  }
+  #folding-animation {
+      min-width:180px; 
+      top:10%;  
+     position:relative;
+  }
+   #folding-animation2 {
+      min-width:180px;  
+      top:10%;  
+      position:relative;
+  }
+}
+
 /*-----------------------*/
 /*About*/
 /*-----------------------*/
@@ -1608,6 +1684,15 @@ a:hover{
     -ms-transform: translate(0px,0px);
     transform: translate(0px,0px);
     opacity: 1;
+}
+
+@media(max-width:500px){
+    #kevin,#andrew,#rob{
+        -webkit-transform: translate(-50px, 0px);
+        -o-transform: translate(-50px, 0px);
+        -ms-transform: translate(-50px, 0px);
+        transform: translate(-50px, 0px);
+    }
 }
 
 /*-----------------------*/
