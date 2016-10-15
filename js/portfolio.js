@@ -350,7 +350,7 @@ jQuery(document).ready(function(){
     setTimeout(function(){
         document.getElementById("link-template1").setAttribute("style", "opacity:1;"+
             " -webkit-transform: translate(0px, 0);-o-transform: translate(0px, 0);"+
-            "-ms-transform: translate(0px, 0);transform: translate(0px, 0);");
+            "-ms-transform: translate(0px, 0);transform: translate(0px, 0); height:100%");
     }, 100);
 
     setTimeout(function(){

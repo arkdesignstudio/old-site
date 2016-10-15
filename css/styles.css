@@ -1109,8 +1109,8 @@ body {
 
 @media (min-width: 500px) {
   .col-window-margin {
-    flex-basis: 5% !important;
-    max-width: 5% !important;
+    flex-basis: 3% !important;
+    max-width: 3% !important;
   }
 
   .col-window{
@@ -1563,15 +1563,26 @@ a:hover{
   transition: all 10s;
   width: 280px;
   height: 280px;
-  display: flex; 
+  max-width: 100%;
+/*  display: flex; 
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   border: 1px solid #262828;
   border-radius: 1px;
   position: absolute;
   top: 20%;
+  display: -webkit-flex !important; 
+  display: flex;
+  -webkit-justify-content:center !important; 
+  justify-content: center; 
 }
 
+.static-wrapper{
+    display: -webkit-flex !important; 
+  display: flex;
+  -webkit-justify-content:center !important; 
+  justify-content: center; 
+}
 
 
 @media(max-width: 900px) {
@@ -1583,27 +1594,41 @@ a:hover{
 
 #animation-container2{
   transition: all 10s;
+/*  max-width: 50%;*/
   width: 280px;
   height: 280px;
-  display: flex; 
+/*  display: flex; 
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
   border-radius: 1px;
-  position: absolute;
+  position: relative;
   top: 20%;
   z-index: -1;
+  display: -webkit-flex !important; 
+  display: flex;
+  -webkit-justify-content:center !important; 
+  justify-content: center; 
+/*  height:100%;*/
 }
 
 #folding-animation{
   width:200px; 
-  top:10%;  
-  position:absolute;
+  height:200px; 
+  min-width:200px; 
+  min-height:200px; 
+    margin-top: 20px; 
+ /* top:10%;  */
+/*  position:absolute;*/
 }
 
 #folding-animation2{
   width:200px; 
-  top:10%;  
-  position:absolute;
+  height:200px; 
+  min-width:200px; 
+  min-height:200px; 
+  margin-top: 20px; 
+ /* height: 100%;*/
+ /* position:absolute;*/
 }
 
 
@@ -1649,7 +1674,7 @@ a:hover{
       align-items: center;
       justify-content: center;
       border-radius: 1px;
-      position: absolute;
+/*      position: absolute;*/
       top: 0%;
       left: 0%;
       border:none;
@@ -1664,6 +1689,14 @@ a:hover{
       top:10%;  
       position:relative;
   }
+}
+
+#animation-wrapper{
+  display: -webkit-flex !important; 
+  display: flex;
+  -webkit-justify-content:center !important; 
+  justify-content: center; 
+  height:100%;
 }
 
 /*-----------------------*/

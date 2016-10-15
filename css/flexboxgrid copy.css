@@ -16,8 +16,8 @@
   -webkit-box-flex: 0;
   flex: 0 1 auto;
   -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+/*  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;*/
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -30,10 +30,6 @@
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
   flex-direction: row-reverse;
-}
-
-.col {
-  height: 100%;
 }
 
 .col.reverse {
@@ -57,17 +53,13 @@
 .col-body,
 .col-hor-margin,
 .col-xs-11,
-.col-xs-12,
-.col-xs-32,
-.col-xs-49,
-.col-xs-40 {
+.col-xs-12 {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
   flex: 0 0 auto;
   padding-right: 0rem;
   padding-left: 0rem;
-    height: 100%;
 }
 
 .col-xs {
@@ -78,7 +70,6 @@
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   max-width: 100%;
-  height: 100%;
 }
 
 .col-xs-1 {
@@ -99,34 +90,16 @@
   max-width: 25%;
 }
 
-.col-xs-32 {
-  -ms-flex-preferred-size: 32%;
-  flex-basis: 32%;
-  max-width: 32%;
-}
-
 .col-xs-4 {
   -ms-flex-preferred-size: 33.333%;
   flex-basis: 33.333%;
   max-width: 33.333%;
 }
 
-.col-xs-40 {
-  -ms-flex-preferred-size: 40%;
-  flex-basis: 40%;
-  max-width: 40%;
-}
-
 .col-xs-5 {
   -ms-flex-preferred-size: 41.667%;
   flex-basis: 41.667%;
   max-width: 41.667%;
-}
-
-.col-xs-49 {
-  -ms-flex-preferred-size: 49%;
-  flex-basis: 49%;
-  max-width: 49%;
 }
 
 .col-xs-6 {
@@ -155,8 +128,8 @@
 
 .col-xs-10 {
   -ms-flex-preferred-size: 83.333%;
-  flex-basis: 83%;
-  max-width: 83%;
+  flex-basis: 83.333%;
+  max-width: 83.333%;
 }
 
 .col-xs-11 {
@@ -294,15 +267,13 @@
   .col-sm-9,
   .col-sm-10,
   .col-sm-11,
-  .col-sm-12 ,
-  .col-sm-49{
+  .col-sm-12 {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
     flex: 0 0 auto;
     padding-right: 0rem;
     padding-left: 0rem;
-     height: 99%;
   }
 
   .col-sm {
@@ -386,13 +357,6 @@
     flex-basis: 100%;
     max-width: 100%;
   }
-
-  .col-sm-49{
-    -ms-flex-preferred-size: 49%;
-    flex-basis: 49%;
-    max-width: 49%;
-  }
-
 
   .col-sm-offset-1 {
     margin-left: 8.333%;
@@ -525,7 +489,6 @@
     flex: 0 0 auto;
     padding-right: 0rem;
     padding-left: 0rem;
-     height: 100%;
   }
 
   .col-md {
@@ -741,7 +704,6 @@
     flex: 0 0 auto;
     padding-right: 0rem;
     padding-left: 0rem;
-     height: 100%;
   }
 
   .col-lg {
