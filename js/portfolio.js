@@ -35,7 +35,7 @@ const content = '{ '+
 
   ' "link" : [' + 
   ' "http://electricsheep.nfshost.com" ,' + 
-  ' "http://bluntli.com/public",' +
+  ' "http://bluntli.com",' +
   ' "index.html" ],' +
 
   ' "next" : [' + 
