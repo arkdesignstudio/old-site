@@ -16,6 +16,9 @@ jQuery(document).ready(function(){
         document.getElementById("projects-panel").setAttribute("style","-webit-transform: scale(1,1); -o-transform: scale(1,1);"+
             "-ms-transform: scale(1,1);"+
             " transform: scale(1,1);");
+        document.getElementById("projects-panel-mobile").setAttribute("style","-webit-transform: scale(1,1); -o-transform: scale(1,1);"+
+            "-ms-transform: scale(1,1);"+
+            " transform: scale(1,1);");
     }, 2600);
 
     setTimeout(function(){
@@ -26,10 +29,21 @@ jQuery(document).ready(function(){
             " -webkit-transform: translate(0px, 0);-o-transform: translate(0px, 0);"+
             "-ms-transform: translate(0px, 0);transform: translate(0px, 0);"+
             "display: flex; align-items: center;justify-content: left;");
+        document.getElementById("corner-container-mobile").setAttribute("style", "opacity:1;"+
+            " -webkit-transform: translate(0px, 0);-o-transform: translate(0px, 0);"+
+            "-ms-transform: translate(0px, 0);transform: translate(0px, 0);"+
+            "display: flex; align-items: center;justify-content: left;");
+        document.getElementById("menu-container").setAttribute("style", "opacity:1;"+
+            " -webkit-transform: translate(0px, 0);-o-transform: translate(0px, 0);"+
+            "-ms-transform: translate(0px, 0);transform: translate(0px, 0);"+
+            "display: flex; align-items: center;justify-content: left;");
         document.getElementById("animation-container").setAttribute("style", " border-color: #676868;");
+        document.getElementById("animation-container-mobile").setAttribute("style", " border-color: #676868;");
         document.getElementById("folding-animation").setAttribute("style", "opacity:0");
+        document.getElementById("folding-animation-mobile").setAttribute("style", "opacity:0");
         document.getElementById("grid-bg1").setAttribute("style" , "opacity:0");
         document.getElementById("projects-panel-content").setAttribute("style","opacity:1");
+        document.getElementById("projects-panel-content-mobile").setAttribute("style","opacity:1");
     }, 3100);
 });
 

@@ -937,7 +937,7 @@ body {
   border: 0px solid #676868;
 }
 
-#projects-panel{
+#projects-panel, #projects-panel-mobile{
   width: 280px;
   height: 60%;
   border: 1px solid #676868;
@@ -948,7 +948,7 @@ body {
   transition: all 1s ease 0s;
 }
 
-#projects-panel-content{
+#projects-panel-content, #projects-panel-content-mobile{
   opacity:0;
   transition: all 2s ease 0s;
 
@@ -1142,8 +1142,12 @@ body {
     .square-window{
         /*height: 48%;*/
     }
-    #corner-icon{
+    #corner-icon, #menu-icon, #corner-icon-mobile{
         width: 50px;
+    }
+    .zhu label{
+        width: 50px;
+        height: 50px;
     }
 }
 
@@ -1151,8 +1155,12 @@ body {
     .square-window{
        /* height: 45%;*/
     }
-    #corner-icon{
+    #corner-icon, #menu-icon, #corner-icon-mobile{
         width: 70px;
+    }
+    .zhu label{
+        width: 70px;
+        height: 70px;
     }
 }
 
@@ -1494,7 +1502,7 @@ a:hover{
 }
 
 
-#corner-container{
+#corner-container,#menu-container, #corner-container-mobile{
     opacity: 0;
     transition: all .5s ease 0s;
     -webkit-transform: translate(0px, -20px);
@@ -1511,12 +1519,12 @@ a:hover{
     cursor: pointer;
 }
 
-#corner-icon:hover{
+#corner-icon:hover, #menu-icon:hover, #corner-icon-mobile:hover{
       transition: all .2s ease 0s;
 }
 
 
-#corner-icon:hover{
+#corner-icon:hover,#menu-icon:hover, #corner-icon-mobile:hover{
     -webkit-transform: scale(.9, .9);
     -o-transform: scale(.9, .9);
     -ms-transform: scale(.9, .9);
@@ -1559,7 +1567,7 @@ a:hover{
 
 
 
-#animation-container{
+#animation-container, #animation-container-mobile{
   transition: all 10s;
   width: 280px;
   height: 280px;
@@ -1586,13 +1594,13 @@ a:hover{
 
 
 @media(max-width: 900px) {
-  #animation-container{
+  #animation-container, #animation-container-mobile{
       border: none;
   }
 }
 
 
-#animation-container2{
+#animation-container2, #animation-container2-mobile{
   transition: all 10s;
 /*  max-width: 50%;*/
   width: 280px;
@@ -1611,7 +1619,7 @@ a:hover{
 /*  height:100%;*/
 }
 
-#folding-animation{
+#folding-animation, #folding-animation-mobile{
   width:200px; 
   height:200px; 
   min-width:200px; 
@@ -1621,7 +1629,7 @@ a:hover{
 /*  position:absolute;*/
 }
 
-#folding-animation2{
+#folding-animation2, #folding-animation2-mobile{
   width:200px; 
   height:200px; 
   min-width:200px; 
@@ -1653,7 +1661,7 @@ a:hover{
 }
 
 @-moz-document url-prefix() { 
-  #animation-container {
+  #animation-container, #animation-container-mobile {
     transition: all 10s;
       width: 100%;
       height: 100%;
@@ -1666,7 +1674,7 @@ a:hover{
       left: 0%;
       border:none;
   }
-  #animation-container2 {
+  #animation-container2, #animation-container2-mobile {
     transition: all 10s;
       width: 100%;
       height: 100%;
@@ -1679,19 +1687,19 @@ a:hover{
       left: 0%;
       border:none;
   }
-  #folding-animation {
+  #folding-animation, #folding-animation-mobile {
       min-width:180px; 
       top:10%;  
      position:relative;
   }
-   #folding-animation2 {
+   #folding-animation2, #folding-animation2-mobile {
       min-width:180px;  
       top:10%;  
       position:relative;
   }
 }
 
-#animation-wrapper{
+#animation-wrapper, #animation-wrapper-mobile{
   display: -webkit-flex !important; 
   display: flex;
   -webkit-justify-content:center !important; 
@@ -1741,4 +1749,186 @@ a:hover{
 }
 
 
+/*-----------------------*/
+/* -- Menu Overlay
+/*-----------------------*/
 
+#menu {
+ /*   opacity: 0;*/
+/*    height: 65px;*/
+    z-index: 9999;
+/*    position: fixed;*/
+    top: 0;
+/*        transition: all .5s ease 0s;
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -20px);*/
+
+}
+
+#menu-container{
+    transition: all .5s ease 0s;
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -20px);
+        opacity: 0;
+}
+
+.bluntli-menu-links h1 {
+    color: white;
+}
+
+.zhu{
+    opacity: 0.8;
+    top: 13px;
+    right: 1%;
+    z-index: 1001;    
+}
+
+.zhu:hover{
+ /* use another image here if you need to on menu button hover */
+}
+
+#bi {
+  display:none;
+}
+
+.zhu label{
+    text-transform: uppercase;
+    text-align: center;
+/*    width: 50px;
+    height: 50px;*/
+    background: transparent;
+    background: url('../img/hamburger-icon.svg');
+    background-size: cover; 
+}
+
+.zhu label:hover{
+  cursor:pointer;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #262828 !important;
+  z-index: 9999;  
+}
+
+.overlay label{
+  width: 58px;
+  height:58px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: url('http://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png');
+  z-index: 9999;
+  cursor:pointer;
+}
+
+.overlay nav {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  height: 60%;
+  font-size: 54px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+
+.overlay ul li {
+  display: flex;
+  height: 10%;
+  height: calc(100% / 9);
+  min-height: 25px;
+}
+
+.overlay ul li a {
+  font-weight: 300;
+  display: block;
+  color: white;
+  text-decoration:none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  font-family: 'Circular';
+  text-transform:uppercase;
+}
+
+.overlay ul li a:hover,
+.overlay ul li a:focus {
+  color: #849368;
+}
+
+.zhu~.overlay-bluntli{
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+  transition: opacity 0.5s, visibility 0s 0.5s;
+}
+
+#bi:checked~.overlay-bluntli{
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.overlay-bluntli nav {
+  -moz-perspective: 300px;
+}
+
+.overlay-bluntli nav ul {
+  opacity: 0.4;
+  -webkit-transform: translateY(-25%) rotateX(35deg);
+  transform: translateY(-25%) rotateX(35deg);
+  -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#bi:checked~.overlay-bluntli nav ul {
+  opacity: 1;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+#bi:not(:checked)~.overlay-bluntli nav ul {
+  -webkit-transform: translateY(25%) rotateX(-35deg);
+  transform: translateY(25%) rotateX(-35deg);
+}
+
+
+/*-----------------------*/
+/* Mobile
+/*-----------------------*/
+@media (min-width: 640px) {
+    #index-desktop{
+        display: block;
+    }
+    #index-mobile{
+        display: none;
+    }
+
+}
+
+@media (max-width: 639px) {
+    #index-desktop{
+        display: none;
+    }
+    #index-mobile{
+        display: block;
+    }
+
+}

@@ -60,7 +60,8 @@
 .col-xs-12,
 .col-xs-32,
 .col-xs-49,
-.col-xs-40 {
+.col-xs-40,
+.col-xs-65 {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
@@ -141,6 +142,12 @@
   max-width: 58.333%;
 }
 
+.col-xs-65 {
+  -ms-flex-preferred-size: 65%;
+  flex-basis: 65%;
+  max-width: 65%;
+}
+
 .col-xs-8 {
   -ms-flex-preferred-size: 66.667%;
   flex-basis: 66.667%;
@@ -152,6 +159,7 @@
   flex-basis: 75%;
   max-width: 75%;
 }
+
 
 .col-xs-10 {
   -ms-flex-preferred-size: 83.333%;
