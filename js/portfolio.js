@@ -9,31 +9,37 @@ var bottomState=0;
 const content = '{ '+
 
   ' "name" : [' +
+  ' "Pomily" ,' +
   ' "Electric Sheep" ,' +
-  ' "Bluntli" ,' +
+  ' "Metagreen" ,' +
   ' "Graphic Design" ],' +
 
   '  "logo" : [' +
+  ' "img/pomily_logo.svg" ,' +
   ' "img/electric_logo.svg" ,' +
-  ' "img/bluntli_logo.svg" ,' +
+  ' "img/metagreen_logo.svg" ,' +
   ' "img/design_logo.svg" ],' +
 
   ' "screens" : [' + 
+  ' "img/pomily_screens/pomily_screen" ,' + 
   ' "img/sheep_screens/electric_screen" ,' + 
-  ' "img/bluntli_screens/bluntli_screen" ,' + 
+  ' "img/metagreen_screens/metagreen_screen" ,' + 
   ' "img/design_screens/design_screen" ],' + 
 
   ' "squares" : [' + 
+  ' "img/pomily_screens/pomily_square" ,' + 
   ' "img/sheep_screens/electric_square" ,' + 
-  ' "img/bluntli_screens/bluntli_square" ,' + 
+  ' "img/metagreen_screens/metagreen_square" ,' + 
   ' "img/design_screens/design_square" ],' + 
 
   ' "bg" : [' + 
+  ' "rgba(114,101,124,.5)" ,' + 
   ' "rgba(36,56,75,.5)" ,' + 
-  ' "rgba(59,56,76,.5)",' + 
+  ' "rgba(84,99,87,.5)",' + 
   ' "rgba(38,40,40,.5)" ],' + 
 
   ' "link" : [' + 
+  ' "http://electricsheep.nfshost.com" ,' + 
   ' "http://electricsheep.nfshost.com" ,' + 
   ' "http://bluntli.com",' +
   ' "index.html" ],' +
@@ -41,7 +47,8 @@ const content = '{ '+
   ' "next" : [' + 
   ' "1" ,' + 
   ' "2" ,' +
-  ' "3" ],' +
+  ' "3" ,' +
+  ' "4" ],' +
 
   ' "back" : [' + 
   ' "2" ,' + 
@@ -49,13 +56,15 @@ const content = '{ '+
   ' "1" ],' +
 
   '  "transformations" : [' +
+  ' "scale(1.5,1.5) translate(-80px,50px)",' + 
   ' "scale(1.2,1.2) translate(100px,0px)" ,' +
   ' "scale(1.5,1.5) translate(-80px,50px)",' + 
   ' "scale(1,1)" ],' + 
 
   '  "paragraph" : [' +
-  ' "Browser based isometric exploration game built with WebGL." ,' +
-  ' "Animated marketing page built with node.js & React. Storytelling with isometric illustrations & CSS animations." ,' +
+  ' "E-commerce & social media platform built on Rails." ,' +
+  ' "Browser-based procedurally-generated isometric exploration game built with WebGL." ,' +
+  ' "Brochure website for successful startup built with React." ,' +
   ' "A graphic is worth a thousand words." ]}'
 ; 
 

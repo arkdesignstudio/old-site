@@ -22,6 +22,7 @@
   width: 100%;
  }
 
+
 .bg-home{
     background-color: #262828 !important;
  }
@@ -1921,6 +1922,7 @@ a:hover{
         display: none;
     }
 
+
 }
 
 @media (max-width: 639px) {
@@ -1929,6 +1931,30 @@ a:hover{
     }
     #index-mobile{
         display: block;
+    }
+    #text-block{
+        opacity: 0 !important;
+    }
+    #control-panel-left{
+        border: none !important;
+    }
+    #control-panel-right{
+       border: none !important;
+    }
+    #left-section{
+       max-width: 10% !important;
+    }
+    #middle-section{
+       max-width: 80% !important;
+    }
+    #right-section{
+       max-width: 10% !important;
+    }
+    #nav-bar{
+       display: none !important;
+    }
+    #corner-container{
+       transform: translate(0, -100%) !important;
     }
 
 }
