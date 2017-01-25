@@ -39,9 +39,9 @@ const content = '{ '+
   ' "rgba(38,40,40,.5)" ],' + 
 
   ' "link" : [' + 
+  ' "#" ,' + 
   ' "http://electricsheep.nfshost.com" ,' + 
-  ' "http://electricsheep.nfshost.com" ,' + 
-  ' "http://bluntli.com",' +
+  ' "http://metagreen.ventures",' +
   ' "index.html" ],' +
 
   ' "next" : [' + 
