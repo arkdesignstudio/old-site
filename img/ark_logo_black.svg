@@ -1,28 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300px" height="230.988px" viewBox="0 0 300 230.988" enable-background="new 0 0 300 230.988" xml:space="preserve">
-<rect x="-484.368" y="-102.305" fill="#FBFBF3" width="467.184" height="479.45"/>
+	 viewBox="0 0 220 122" style="enable-background:new 0 0 220 122;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#262828;}
+</style>
 <g>
 	<g>
-		<polygon fill="#262828" points="137.777,172.1 212.111,147.43 253.338,89.708 		"/>
-		<polygon fill="#262828" points="166.975,55.809 196.145,126.166 141.774,114.929 		"/>
-		<polygon fill="#262828" points="126.151,175.18 190.18,129.324 46.662,99.839 		"/>
-		<polygon fill="#262828" points="137.777,114.248 144.772,97.444 51.46,96.188 		"/>
-		<polygon fill="#262828" points="191.65,103.014 199.807,122.695 250.844,86.573 		"/>
+		<g>
+			<g>
+				<g>
+					<path class="st0" d="M90.8,114.4c-0.8,0-1.5-0.3-2.1-0.8L18.1,46.7c-0.9-0.9-1.2-2.2-0.7-3.3c0.5-1.1,1.6-1.9,2.8-1.9l85,1.2
+						l16.5-38c0.5-1.1,1.6-1.8,2.8-1.8c0,0,0,0,0,0c1.2,0,2.3,0.7,2.8,1.8l18.3,42.4l53.6-14.8c1.2-0.3,2.5,0.1,3.3,1.2
+						c0.7,1,0.7,2.4,0,3.5l-37.5,52.4c-0.4,0.5-0.9,0.9-1.5,1.1l-71.6,23.8C91.4,114.4,91.1,114.4,90.8,114.4z M27.8,47.6L91.6,108
+						l69-22.9l32-44.7l-47.9,13.2c-1.4,0.4-3-0.3-3.6-1.7l-16.6-38.4L110,46.9c-0.5,1.1-1.6,1.8-2.8,1.8L27.8,47.6z"/>
+				</g>
+				<g>
+					<g>
+						<path class="st0" d="M94.3,113.2c-0.9,0-1.9-0.4-2.4-1.3c-1-1.4-0.6-3.2,0.7-4.2l105.6-75c1.4-1,3.2-0.6,4.2,0.7
+							c1,1.4,0.6,3.2-0.7,4.2L96,112.6C95.5,113,94.9,113.2,94.3,113.2z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st0" d="M149,74.6c-0.2,0-0.4,0-0.6-0.1L20.2,48c-1.6-0.3-2.7-1.9-2.3-3.5c0.3-1.6,1.9-2.7,3.5-2.3l128.2,26.5
+							c1.6,0.3,2.7,1.9,2.3,3.5C151.6,73.6,150.4,74.6,149,74.6z"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<path class="st0" d="M150.9,72.1c-1.2,0-2.3-0.7-2.8-1.8l-23.6-56.6l-20.4,48.4c-0.6,1.5-2.4,2.2-3.9,1.6
+							c-1.5-0.6-2.2-2.4-1.6-3.9l23.2-55c0.5-1.1,1.6-1.8,2.8-1.8c0,0,0,0,0,0c1.2,0,2.3,0.7,2.8,1.8l26.4,63.2
+							c0.6,1.5-0.1,3.3-1.6,3.9C151.7,72,151.3,72.1,150.9,72.1z"/>
+					</g>
+				</g>
+				<g>
+					<path class="st0" d="M184.1,56"/>
+				</g>
+			</g>
+		</g>
 	</g>
 </g>
-<g display="none">
-	<text transform="matrix(1 0 0 1 59.9189 164.0996)" display="inline"><tspan x="0" y="0" fill="#262828" font-family="'Raleway-Black'" font-size="41.8995" letter-spacing="47">AR</tspan><tspan x="150.498" y="0" fill="#262828" font-family="'Raleway-Black'" font-size="41.8995">K</tspan></text>
-	<text transform="matrix(1 0 0 1 93.5361 201.8887)" display="inline"><tspan x="0" y="0" fill="#262828" font-family="'LibreBaskerville-Regular'" font-size="29.0344" letter-spacing="4">studi</tspan><tspan x="93.938" y="0" fill="#262828" font-family="'LibreBaskerville-Regular'" font-size="29.0344">o</tspan></text>
-	<g display="inline">
-		<polygon fill="#262828" points="141.121,108.125 196.573,89.72 227.328,46.66 		"/>
-		<polygon fill="#262828" points="162.901,21.372 184.661,73.859 144.102,65.475 		"/>
-		<polygon fill="#262828" points="132.448,110.422 180.212,76.214 73.149,54.218 		"/>
-		<polygon fill="#262828" points="141.121,64.967 146.338,52.432 76.728,51.494 		"/>
-		<polygon fill="#262828" points="181.31,56.586 187.394,71.268 225.468,44.321 		"/>
-	</g>
-</g>
-<rect x="-668.869" y="-211.489" fill="#262828" width="491.976" height="659.967"/>
+<image style="overflow:visible;" width="300" height="231" xlink:href="data:image/jpeg;base64,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" transform="matrix(1 0 0 1 -347 -198.8004)">
+</image>
 </svg>
