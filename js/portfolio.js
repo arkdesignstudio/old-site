@@ -9,37 +9,31 @@ var bottomState=0;
 const content = '{ '+
 
   ' "name" : [' +
-  ' "Pomily" ,' +
   ' "Electric Sheep" ,' +
   ' "Metagreen" ,' +
   ' "Graphic Design" ],' +
 
   '  "logo" : [' +
-  ' "img/pomily_logo.svg" ,' +
   ' "img/electric_logo.svg" ,' +
   ' "img/metagreen_logo.svg" ,' +
   ' "img/design_logo.svg" ],' +
 
   ' "screens" : [' + 
-  ' "img/pomily_screens/pomily_screen" ,' + 
   ' "img/sheep_screens/electric_screen" ,' + 
   ' "img/metagreen_screens/metagreen_screen" ,' + 
   ' "img/design_screens/design_screen" ],' + 
 
   ' "squares" : [' + 
-  ' "img/pomily_screens/pomily_square" ,' + 
   ' "img/sheep_screens/electric_square" ,' + 
   ' "img/metagreen_screens/metagreen_square" ,' + 
   ' "img/design_screens/design_square" ],' + 
 
   ' "bg" : [' + 
-  ' "rgba(114,101,124,.5)" ,' + 
   ' "rgba(36,56,75,.5)" ,' + 
   ' "rgba(84,99,87,.5)",' + 
   ' "rgba(38,40,40,.5)" ],' + 
 
   ' "link" : [' + 
-  ' "#" ,' + 
   ' "http://electricsheep.nfshost.com" ,' + 
   ' "http://metagreen.ventures",' +
   ' "index.html" ],' +
@@ -62,7 +56,6 @@ const content = '{ '+
   ' "scale(1,1)" ],' + 
 
   '  "paragraph" : [' +
-  ' "E-commerce & social media platform built on Rails." ,' +
   ' "Browser-based procedurally-generated isometric exploration game built with WebGL." ,' +
   ' "Brochure website for successful startup built with React." ,' +
   ' "A graphic is worth a thousand words." ]}'
